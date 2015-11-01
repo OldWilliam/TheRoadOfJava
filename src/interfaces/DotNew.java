@@ -1,0 +1,14 @@
+/*
+2015-11-1 обнГ4:59:42
+*/
+package interfaces;
+/*
+ * 	
+ */
+public class DotNew {
+	public class Inner{}
+	public static void main(String[] args) {
+		DotNew dn = new DotNew();
+		DotNew.Inner dni = dn.new Inner();
+	}
+}
