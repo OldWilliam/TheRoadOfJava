@@ -69,5 +69,6 @@ public class HorrorShow {
 		u(vlad);
 		v(vlad);
 		w(vlad);
+		System.out.println("ha");
 	}
 }
