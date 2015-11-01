@@ -4,7 +4,7 @@
 package interfaces;
 
 /*
- * 	
+ * 	通过继承扩展接口
  */
 interface Monster {
 	void menace();

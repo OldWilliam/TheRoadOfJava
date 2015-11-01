@@ -50,8 +50,8 @@ class ChessFactory implements GameFactory{
 }
 public class Games {
 	public static void playGame(GameFactory factory){//玩游戏的时候，只需要传入相应的游戏工厂即可
-		Game s = factory.getGame();
-		while (s.move()) 
+		Game s = factory.getGame();					 //可复用，方法不需要改变，更加鲁棒
+		while (s.move()) 							 //方便扩展
 			;
 	}
 	public static void main(String[] args) {
