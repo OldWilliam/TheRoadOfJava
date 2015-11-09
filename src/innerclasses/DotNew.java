@@ -1,7 +1,7 @@
 /*
 2015-11-1 ÏÂÎç4:59:42
 */
-package interfaces;
+package innerclasses;
 /*
  * 	
  */
