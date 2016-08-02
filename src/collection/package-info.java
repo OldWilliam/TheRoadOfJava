@@ -1,5 +1,12 @@
 /**
  * @author lenovo
- * ¼¯ºÏ
+ * ï¿½ï¿½ï¿½ï¿½
  */
 package collection;
+class hello{
+	public static void main(String[] args) {
+		java.util.ArrayList<java.lang.String> aList;
+		java.util.LinkedList< java.lang.String> aList2;
+		java.util.HashMap<java.lang.String, java.lang.String> n;
+	}
+}
