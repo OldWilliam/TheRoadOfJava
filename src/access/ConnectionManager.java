@@ -1,10 +1,12 @@
 /*
-2015-10-15 ÏÂÎç8:21:17
+2015-10-15 ï¿½ï¿½ï¿½ï¿½8:21:17
  */
 package access;
 
+import java.net.Proxy.Type;
+
 /*
- * µ±¹¹Ôìº¯Êý·ÃÎÊ¿ØÖÆÈ¨ÏÞÎªprivateÊ±£¬ÎÞ·¨ÊµÀý¸ÃÀà¡£µ«ÊÇ£¬¿ÉÒÔÍ¨¹ý¸ÃÀàµÄ¾²Ì¬·½·¨À´·µ»ØÒ»¸öÊµÀý£¬ÕâÃ²ËÆ¾ÍÊÇµ¥ÀýÄ£Ê½¡£
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½ï¿½Ê¿ï¿½ï¿½ï¿½È¨ï¿½ï¿½ÎªprivateÊ±ï¿½ï¿½ï¿½Þ·ï¿½Êµï¿½ï¿½ï¿½ï¿½à¡£ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½Ã²ï¿½Æ¾ï¿½ï¿½Çµï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½
  */
 public class ConnectionManager {
 	private static int size = 10;

@@ -1,13 +1,17 @@
 /*
-2015-10-16 ÏÂÎç9:26:01
+2015-10-16 ï¿½ï¿½ï¿½ï¿½9:26:01
 */
 package test;
+
+import java.util.Scanner;
+
 /*
- * 	¾²Ì¬·½·¨ÊÇ¾²Ì¬°ó¶¨£¬Ç°ÆÚ°ó¶¨£¬
+ * 	ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½Ì¬ï¿½ó¶¨£ï¿½Ç°ï¿½Ú°ó¶¨£ï¿½
  */
 public class OldMan {
 	 public static void main(String[] args) 
 	    { 
+		 Scanner in = new Scanner(System.in);
 	        Fu s = new Zi(); 
 	        System.out.println(s.age() + ", " + s.name()); 
 	        Zi z = new Zi();
@@ -16,7 +20,7 @@ public class OldMan {
 }
 class Fu
 { 
-     static String age() //¾²Ì¬³ÉÔ±º¯Êý
+     static String age() //ï¿½ï¿½Ì¬ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
      { 
         return " I am a old man"; 
      } 
@@ -31,7 +35,7 @@ class Zi extends Fu
      { 
        return "I am a young man"; 
    } 
-   String name() //³ÉÔ±º¯Êý
+   String name() //ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
       { 
       return "ErZi"; 
      } 
